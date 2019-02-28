@@ -1,0 +1,15 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    Decision
+{% endblock %}
+
+{% block content %}
+
+    Enter 0 to 100.
+    {% formfield player.contribution %}
+
+    {% next_button %}
+
+{% endblock %}
